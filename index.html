@@ -12,17 +12,26 @@
   </head>
   <body>
     <nav>
-      <a href="#">Gmail</a>
-      <a href="#">Images</a>
-      <i class="fa-solid fa-bars"></i>
-      <i class="fa-regular fa-user"></i>
+      <div class="add-point">
+        <div class="toggle-container">
+          <input type="checkbox" id="theme-toggle" />
+          <label for="theme-toggle" class="toggle-label" id="toggle-theme">
+            <span class="toggle-icon"></span>
+          </label>
+        </div>
+        <span>✨ 4일차 과제 다크모드 기능추가 ✨</span>
+      </div>
+
+      <div>
+        <a href="#">Gmail</a>
+        <a href="#">Images</a>
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-regular fa-user"></i>
+      </div>
     </nav>
 
     <main>
-      <img
-        width="272"
-        src="https://import.cdn.thinkific.com/523761/courses/1473531/google-210916-155837.png"
-      />
+      <img id="logo" class="google-logo" width="272" alt="Google Logo" />
 
       <div class="input-area">
         <i class="fa-solid fa-magnifying-glass"></i>
@@ -37,7 +46,7 @@
 
       <div>
         <i class="fa-solid fa-shield-halved"></i>
-         허위정보를 식별할 수 있도록 도와주는
+        허위정보를 식별할 수 있도록 도와주는
         <a href="#">Google 도구</a>
       </div>
     </main>
@@ -58,6 +67,6 @@
         </span>
       </div>
     </footer>
-
+    <script src="main.js"></script>
   </body>
 </html>
